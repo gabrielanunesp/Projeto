@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="stitch.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <header>
+          <div class="cabecalho">
+            <img id="imagem1" src="stitch.png" alt="imagem do stitch" />
+          </div>
+        </header>
+        <div class="container-input">
+          <textarea
+            id="input-texto"
+            cols="30"
+            rows="10"
+            placeholder="Digite o seu texto aqui..."
+          ></textarea>
+          <div class="container-buttons">
+            <div class="instrucao">
+              <p>ATENÇÃO: apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="buttons">   
+              <button class="btn btn-criptografia" onclick="criptografar()">
+                Criptografia
+              </button>
+              <button
+                class="btn btn-descriptografia"
+                onclick="descriptografar()"
+              >
+                Descriptografia
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="conteiner-output">
+        <div class="background-output">
+          <div class="mensagem">
+            <img id="imagem2" src="stitch.png" alt="imagem do stitch" />
+            <p>digite um texto que deseja</p>
+            <p>criptografar ou descriptografar</p>
+            <button>Copiar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3>Desenvolvido por Gabriela Nunes</h3>
+    <script src="script.js"></script>
+  </body>
+</html>
