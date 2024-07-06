@@ -16,7 +16,8 @@
  por trás. pude usar meus conhecimentos e aprendizados utilizando html,css e javascript para criar esse challenge, que fico muito realizada de ter concluido.
 
 
-
+## screenshot
+![App Screenshot](C:\Users\GABRIELA\Desktop\projeto\imagem1.png)
 
 
 
