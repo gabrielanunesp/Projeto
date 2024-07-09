@@ -17,8 +17,7 @@
 
 
 ## screenshot
-![App Screenshot](C:\Users\GABRIELA\Desktop\projeto\imagem1.png)
-
+![imagem1 png](https://github.com/gabrielanunesp/Projeto/assets/174529731/73ebe59d-c0dc-41fa-87c8-ea69741e7331)
 
 
 
